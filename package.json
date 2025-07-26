@@ -1,0 +1,11 @@
+{
+  "name": "mathscilab",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node server.js",
+    "build": "echo build complete"
+  },
+  "dependencies": {
+    "@remix-run/dev": "^2.17.0"
+  }
+}
