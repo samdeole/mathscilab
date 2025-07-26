@@ -1,0 +1,10 @@
+# Create the YAML file
+echo 'services:
+  - type: web
+    name: mathscilab
+    env: node
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    envVars:
+      - key: NODE_VERSION
+        value: 22' > render.yaml
